@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/abdallahsalimjuma/Dullah_Md';
-  const img = 'https://files.catbox.moe/0cxusf.jpg';
+  const githubRepo = 'https://api.github.com/repos/boniphace478/BONIPHACE-MD';
+  const img = 'https://files.catbox.moe/3vzjsl.jpeg';
 
   try {
     const response = await fetch(githubRepo);
@@ -22,18 +22,18 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*hellow Friend
-this is* *Dullah-md 👊.*\n *Join Group Chat* https://chat.whatsapp.com/GufiUEQ7Jj1D2kszcZqOgx
+this is* *Boniphace-Md.*\n *Follow and support our channel* https://chat.whatsapp.com/GufiUEQ7Jj1D2kszcZqOgx
 
 🗼 *REPOSITORY:* ${data.html_url}
 💫 *STARS:* ${repoInfo.stars}
 🧧 *FORKS:* ${repoInfo.forks}
 📅 *RELEASE DATE:* ${releaseDate}
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-🙊 *OWNER:* *Mr Dulla*
-🍃 *THEME:* *DULLAH MD*
-🍷 *Am Safe To Fight In My Life*
+🙊 *OWNER:* *BONIPHACE*
+🍃 *THEME:* *BONIPHACE MD*
+🍷 *believe in yourself don't depend on anyone *
 __________________________________
-            *Made With Dulla*`;
+            *Made With Boniphace Team*`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
