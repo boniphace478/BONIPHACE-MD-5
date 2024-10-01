@@ -34,16 +34,21 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-   *DULLAH MD BOT IMPORTANT INFO* 
+   *BONIPHACE MD BOT IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/abdallahsalimjuma/Dullah_Md
+> https://github.com/boniphace478/BONIPHACE-MD
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/GufiUEQ7Jj1D2kszcZqOgx
+> https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G
+
+*WHATSAPP GROUP*
+>
+https://chat.whatsapp.com/KrseXOOYu2nKOkht0qonhY
+
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
-> https://github.com/Dullah-BOT/Dullah_Md
+> https://github.com/boniphace478/BONIPHACE-MD
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │❒⁠⁠⁠⁠ *DEV* : *DULLAH BOT*
@@ -51,7 +56,7 @@ const date = moment().format('DD/MM/YYYY');
   `;
     
 let menuMsg = `
-     DULLAH MD 
+     POWERED BY BONIPHACE TEAM 
 
 ❒────────────────────❒`;
 
@@ -59,7 +64,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Dullahmd*, déveloper Dullah Sir" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Boniphacemd*, déveloper Boniphace Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -69,7 +74,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Dullahmd*, déveloper Dullah Sir" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Boniphacemd*, déveloper Boniphace Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
