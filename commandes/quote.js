@@ -40,7 +40,7 @@ Powered by Boniphace-MD`);
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by Hacking-MD`);
+Powered by Boniphace-MD`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
