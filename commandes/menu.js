@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "menu2", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu3", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -97,7 +97,7 @@ boniphace md cmds𒈒
         for (const cmd of coms[cat]) {
 
             menuMsg += `
-┃༆ ${cmd}`;
+┃𓆏 ${cmd}`;
 
         }
 
