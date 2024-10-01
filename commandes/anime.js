@@ -130,9 +130,9 @@ zokou({
     const response = await axios.get(`http://www.omdbapi.com/?apikey=742b2d09&t=${arg}&plot=full`);
     const imdbData = response.data;
 
-    let imdbInfo = "Tap on the link to join movie channel on telegram and download movies there : https://t.me/abdallahsalim\n";
-    imdbInfo += " ``` DULLAH MD FILMS```\n";
-    imdbInfo += "*Made by Mr Dullah*\n";
+    let imdbInfo = "Tap on the link to join movie channel on telegram and download movies there : https://t.me/boniphaceTech\n";
+    imdbInfo += " ``` BONIPHACE MD FILMS```\n";
+    imdbInfo += "*Made by Boniphace Team*\n";
     imdbInfo += "🎬Title    : " + imdbData.Title + "\n";
     imdbInfo += "📅year      : " + imdbData.Year + "\n";
     imdbInfo += "⭐Assessment : " + imdbData.Rated + "\n";
