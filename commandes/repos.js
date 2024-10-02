@@ -22,7 +22,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*hellow Friend
-this is* *Boniphace-Md.*\n *Follow and support our channel* https://chat.whatsapp.com/GufiUEQ7Jj1D2kszcZqOgx
+this is* *Boniphace-Md.*\n *Follow and support our channel* https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G
 
 🗼 *REPOSITORY:* ${data.html_url}
 💫 *STARS:* ${repoInfo.stars}
@@ -31,7 +31,7 @@ this is* *Boniphace-Md.*\n *Follow and support our channel* https://chat.whatsap
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 🙊 *OWNER:* *BONIPHACE*
 🍃 *THEME:* *BONIPHACE MD*
-🍷 *believe in yourself don't depend on anyone *
+🍷 *believe in yourself don't depend on anyone*
 __________________________________
             *Made With Boniphace Team*`;
 
